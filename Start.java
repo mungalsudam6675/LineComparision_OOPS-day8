@@ -28,8 +28,14 @@ public class Start {
 			if(ans1 == ans2) {
 				System.out.println("Both line ars equal");
 			}
+			else if(ans1 > ans2) {
+				System.out.println("Line One is greater");
+			}
+			else if(ans1 < ans2) {
+				System.out.println("Line two is greater");
+			}
 			else {
-				System.out.println("Lines are unequal");
+				System.out.println();
 			}
 			
 		
