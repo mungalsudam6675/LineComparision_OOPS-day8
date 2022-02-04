@@ -31,12 +31,10 @@ public class Start {
 			else if(ans1 > ans2) {
 				System.out.println("Line One is greater");
 			}
-			else if(ans1 < ans2) {
+			else (ans1 < ans2) {
 				System.out.println("Line two is greater");
 			}
-			else {
-				System.out.println();
-			}
+			
 			
 		
 
