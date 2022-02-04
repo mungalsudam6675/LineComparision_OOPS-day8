@@ -13,7 +13,26 @@ public class Start {
 	        int x2 = scan.nextInt();
 	        int y2 = scan.nextInt();
 			double ans1=Math.sqrt( (x2 - x1) ^ 2 + (y2 - y1) ^ 2 );
+			
+			System.out.println("enter a1 and b1 value");
+			int a1 = scan.nextInt();
+	        int b1 = scan.nextInt();
+			System.out.println("enter b1 and b2 value");
+	        int a2 = scan.nextInt();
+	        int b2 = scan.nextInt();
+			double ans2=Math.sqrt( (x2 - x1) ^ 2 + (y2 - y1) ^ 2 );
+			
 			System.out.println("Length of line first = " + ans1);
+			System.out.println("Length of line second = " + ans2);
+			
+			if(ans1 == ans2) {
+				System.out.println("Both line ars equal");
+			}
+			else {
+				System.out.println("Lines are unequal");
+			}
+			
+		
 
 	}
 
